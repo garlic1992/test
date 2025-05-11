@@ -7,9 +7,9 @@ import (
 
 func main() {
 	e := exec.Command("ls", "-l")
-	b, err := e.Output()
-	if err != nil {
-		log.Println(err)
+	b, err1 := e.Output()
+	if err1 != nil {
+		log.Println(err1)
 	}
 	log.Println(string(b))
 }
