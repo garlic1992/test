@@ -1,5 +1,7 @@
 package main
 
-func t()int{
-return 0}
+func t() int {
+	return 0
+}
 
+//暂存区
