@@ -1,15 +1,7 @@
 package main
 
-import (
-	"log"
-	"os/exec"
-)
+import "fmt"
 
 func main() {
-	e := exec.Command("ls", "-l")
-	b, err1 := e.Output()
-	if err1 != nil {
-		log.Println(err1)
-	}
-	log.Println(string(b))
+	fmt.Println("hello world")
 }
